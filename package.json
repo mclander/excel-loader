@@ -1,0 +1,27 @@
+{
+  "name": "excel-loader",
+  "version": "1.0.0",
+  "description": "A webpack module to directly load Excel files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mclander/excel-loader.git"
+  },
+  "keywords": [
+    "webpack",
+    "loader",
+    "excel"
+  ],
+  "author": "Alex (mclander) Maximenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mclander/excel-loader/issues"
+  },
+  "homepage": "https://github.com/mclander/excel-loader#readme",
+  "dependencies": {
+    "node-xlsx": "^0.7.4"
+  }
+}
