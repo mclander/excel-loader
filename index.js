@@ -1,9 +1,11 @@
 var xlsx = require('node-xlsx');
 
-module.exports = function (text) {
+module.exports = function(content) {
 
-  this.cacheable();
+  this.cacheable && this.cacheable();
 
-  return 'module.exports = ' + JSON.stringify(xlsx.parse(text));
+  return 'module.exports = ' + JSON.stringify(xlsx.parse(content));
+
 };
+
 module.exports.raw = true;
