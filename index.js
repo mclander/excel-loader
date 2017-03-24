@@ -6,3 +6,4 @@ module.exports = function (text) {
 
   return 'module.exports = ' + JSON.stringify(xlsx.parse(text));
 };
+module.exports.raw = true;
