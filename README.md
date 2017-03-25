@@ -1,9 +1,5 @@
 # Webpack Excel loader
 
-[![npm][npm-v]][npm-url]
-[![npm][npm-d]][npm-url]
-
-
 ## Purpose
 This Excel loader magically inject data from excel file to your webpack project.
 
@@ -32,6 +28,10 @@ const config = {
 ```
 
 The loader will translate excel files into JSON, exactly as node-xlsx do (just on build).
+
+## Tips
+
+For convert Excel Date to JS date you can use this [gist by Cristopher Scott](https://gist.github.com/christopherscott/2782634)
 
 
 ## Credits
