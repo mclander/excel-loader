@@ -29,6 +29,10 @@ const config = {
 
 The loader will translate excel files into JSON, exactly as node-xlsx do (just on build).
 
+## Tips
+
+For convert Excel Date to JS date you can use this [gist by Cristopher Scott](https://gist.github.com/christopherscott/2782634)
+
 
 ## Credits
 
