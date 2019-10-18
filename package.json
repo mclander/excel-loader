@@ -1,6 +1,6 @@
 {
   "name": "excel-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A webpack module to directly load Excel files",
   "main": "index.js",
   "scripts": {

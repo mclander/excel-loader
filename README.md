@@ -1,9 +1,5 @@
 # Webpack Excel loader
 
-[![npm][npm-v]][npm-url]
-[![npm][npm-d]][npm-url]
-
-
 ## Purpose
 This Excel loader magically inject data from excel file to your webpack project.
 
